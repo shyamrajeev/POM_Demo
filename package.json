@@ -1,0 +1,25 @@
+{
+  "name": "pom_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": 
+  {
+    "test": "playwright test",
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:open": "allure open",
+    "allure": "allure generate allure-results --clean && allure open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.5",
+    "allure-js-commons": "latest",
+    "allure-playwright": "latest"
+  },
+  "dependencies": {
+    
+  }
+}
