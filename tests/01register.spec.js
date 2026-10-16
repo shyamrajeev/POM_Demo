@@ -13,6 +13,7 @@ test('TC_01: Verify the user is able to to Register', async ({ page }) => {
     await register.UserRegistration('jack','David','jamesdavid','PASSword@12345');
     await register.BackTologin();
     });
+    //test
 
     
 }); 
